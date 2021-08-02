@@ -1,0 +1,116 @@
+.flex{
+    display: flex;
+}
+body{
+    background-color: #64C9CF;
+}
+p{
+    text-align: center;
+    font-size: 3vw;
+}
+.player1{
+    margin-left: 33%;
+    width: 200px;
+
+}
+.player2{
+    margin-right:  25%;
+    margin-left: 20px;
+    width: 200px;    
+   
+}
+.butn{
+    margin-top: 20px;
+    background: #010A14;
+    margin-left: 45%;
+    background-image: -webkit-linear-gradient(top, #010A14, #4375C6);
+    background-image: -moz-linear-gradient(top, #010A14, #4375C6);
+    background-image: -ms-linear-gradient(top, #010A14, #4375C6);
+    background-image: -o-linear-gradient(top, #010A14, #4375C6);
+    background-image: -webkit-gradient(to bottom, #010A14, #4375C6);
+    -webkit-border-radius: 84px;
+    -moz-border-radius: 84px;
+    border-radius: 84px;
+    color: #FFFFFF;
+    font-family: Brush Script MT;
+    font-size: 28px;
+    font-weight: 100;
+    padding: 16px;
+    -webkit-box-shadow: 1px 1px 20px 0 #DD380D;
+    -moz-box-shadow: 1px 1px 20px 0 #DD380D;
+    box-shadow: 1px 1px 20px 0 #DD380D;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #DD380D 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .butn:hover {
+    border: solid #337FED 1px;
+    background: #0D1302;
+    background-image: -webkit-linear-gradient(top, #0D1302, #1A7AE6);
+    background-image: -moz-linear-gradient(top, #0D1302, #1A7AE6);
+    background-image: -ms-linear-gradient(top, #0D1302, #1A7AE6);
+    background-image: -o-linear-gradient(top, #0D1302, #1A7AE6);
+    background-image: -webkit-gradient(to bottom, #0D1302, #1A7AE6);
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    text-decoration: none;
+ }
+.dice1,.dice2{
+    width: 200px;
+}
+@media screen and (max-width: 992px) {
+    .player1{
+        margin-left: 23%;
+        width: 200px;
+    
+    }
+    .butn{
+        margin-left: 38%;
+    }
+    
+  }
+  @media screen and (max-width: 600px) {
+    .player1{
+        margin-left: 23%;
+        
+    
+    }
+    .dice1{
+        width: 100px;
+    }
+    .dice2{
+        width: 100px;
+    }
+   
+    .butn{
+        margin-left: 140px;
+        height: 60%;
+        font-size: 20px;
+
+    }
+  }
+  @media screen and (max-width:393px) {
+      .flex{
+        display:block;
+      }
+      .player2,.player1{
+        margin-left:100px ;
+       
+    }
+    .pname{
+        margin-right: 75px;
+    }
+    .heading{
+        font-size: 40px;
+    }
+    .butn{
+        margin-left: 95px;
+       
+    }
+      
+  }
