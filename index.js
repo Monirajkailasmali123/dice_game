@@ -1,9 +1,9 @@
 function diceGame(){
 var randomNumberOne=Math.floor(Math.random()*6)+1;
-var randomImageOnePath="/image/"+"dice"+randomNumberOne+".png";
+var randomImageOnePath="image/"+"dice"+randomNumberOne+".png";
 
 var randomNumberTwo=Math.floor(Math.random()*6)+1;
-var randomImageTwoPath="/image/"+"dice"+randomNumberTwo+".png";
+var randomImageTwoPath="image/"+"dice"+randomNumberTwo+".png";
 
 var image1=document.querySelectorAll("img")[0];
 image1.setAttribute("src",randomImageOnePath);
